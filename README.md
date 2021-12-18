@@ -1,4 +1,4 @@
 # DeepLearning
 
-DeepLearning tutorials with Pytorch.
+DeepLearning tutorials with Pytorch.  
 Will cover basic NNs first.
