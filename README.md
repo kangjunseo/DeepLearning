@@ -1,2 +1,4 @@
 # DeepLearning
-DeepLearning tutorials with Pytorch, and some kaggle projects.
+
+DeepLearning tutorials with Pytorch.
+Will cover basic NNs first.
