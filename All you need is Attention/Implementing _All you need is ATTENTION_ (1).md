@@ -757,7 +757,7 @@ class PoswiseFeedForwardNet(nn.Module):
 ```
 
 ## Step 3-3 : Encoder
-![image](https://user-images.githubusercontent.com/88201041/146673720-9e3782fe-636c-4c8e-ab33-2bedd0344190.png){: width="50%" height="50%"}  
+![image](https://user-images.githubusercontent.com/88201041/146673944-7c82f853-6faa-46a2-a8d0-7fc97c6ff6a1.png)
 
 ### Encoder layer
 Make a `EncoderLayer` to process inputs by loop.
