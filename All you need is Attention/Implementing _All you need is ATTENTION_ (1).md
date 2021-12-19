@@ -335,7 +335,7 @@ input_sums = input_embs + pos_embs
 ## Step 2-2 : Scaled Dot Product Attention
 Inputs : Q(query), K(key), V(value), and attention mask  
 K,V should be same value, and if Q is also same, we call that self attention.
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/88201041/146673667-932eee9d-8421-42b3-8ebd-0f85597c1f7f.png)
 
 
 ```python
@@ -406,7 +406,7 @@ class ScaledDotProductAttention(nn.Module):
 ## Step 2-3 : Multi-Head Attention
 Inputs : Q, K, V, attn_mask same as ScaledDot.  
 2 heads and dimension of head is 64.
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/88201041/146673682-38df7c0d-1dc0-496c-a3c2-1ca0840d8e38.png)
 
 
 ```python
@@ -556,7 +556,7 @@ print(output.size(), attn_prob.size())
 
 
 ## Step 2-5 : FeedForward
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/88201041/146673691-cf454b91-b13c-4ef6-b10f-777b109fde28.png)
 
 
 ```python
@@ -757,7 +757,7 @@ class PoswiseFeedForwardNet(nn.Module):
 ```
 
 ## Step 3-3 : Encoder
-![image.png](attachment:image.png)  
+![image](https://user-images.githubusercontent.com/88201041/146673720-9e3782fe-636c-4c8e-ab33-2bedd0344190.png)  
 
 ### Encoder layer
 Make a `EncoderLayer` to process inputs by loop.
@@ -842,7 +842,7 @@ class Encoder(nn.Module):
 ```
 
 ## Step 3-4 : Decoder
-![image.png](attachment:image.png)  
+![image](https://user-images.githubusercontent.com/88201041/146673752-d7f0e73d-a09a-4c57-b3dc-4e6dc2b6f58c.png) 
 
 ### Decoder layer
 - 1. Multi-Head Self Attention, LayerNorm
@@ -932,7 +932,7 @@ class Decoder(nn.Module):
 ```
 
 ## Step 3-5 : Transformer
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/88201041/146673773-bdebb273-dc5b-4cf7-92ae-d85f50047068.png)
 - Put Encoder Input to run Encoder.
 - Put Encoder Output and Decoder Input to run Decoder.
 
