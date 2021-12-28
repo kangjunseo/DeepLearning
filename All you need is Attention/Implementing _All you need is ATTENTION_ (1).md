@@ -1196,3 +1196,6 @@ plt.xlabel('Epoch')
 plt.ylabel('Value')
 plt.show()
 ```
+
+![image](https://user-images.githubusercontent.com/88201041/147540779-a02195f9-0007-46d8-be72-5a7849a2a6ad.png)
+![image](https://user-images.githubusercontent.com/88201041/147540795-c5c9c939-bb68-4b66-bd0f-da7daede9518.png)
