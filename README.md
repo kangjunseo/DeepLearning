@@ -8,4 +8,5 @@
 
 ## CS224N
 
+Standford University NLP class.  
 Class I'm currently listening.  
