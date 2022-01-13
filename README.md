@@ -8,5 +8,6 @@
 
 ## CS224N
 
+[Class Link](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1214/)
 Standford University NLP class.  
 Class I'm currently listening.  
